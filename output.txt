@@ -1,0 +1,26 @@
+1) To add a record, press 'A'.
+2) To find a customer iteratively, press 'I'.
+3) To find a customer recursively, press 'R'.
+4) To find the next node in inorder, press 'S'.
+5) To traverse the tree using PreOrder (iterative), press 'P'.
+6) To get a customer's name, press 'N'.
+7) To get a customer's phone number, press '#'.
+8) To traverse tree inorder, press 'T'
+9) To quit, press 'Q'.
+Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter choice: Enter choice: Enter choice: Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter choice: Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter choice: Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter choice: Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter choice: Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter choice: Enter choice: Enter the name of the customer to insert: Enter the phone number: Enter choice: Enter choice: Enter choice: Enter choice: Name: Nkwantal 
+Phone num.:  295-1492
+Name: Green    
+Phone num.:  295-1601
+Name: Ealson   
+Phone num.:  295-1882
+Name: Bolen    
+Phone num.:  291-7890
+Name: Bell     
+Phone num.:  584-3622
+Name: Hedreen  
+Phone num.:  294-8075
+Name:   Idle   
+Phone num.:    291-18
+Name: Realzola 
+Phone num.:  293-6122
+Enter choice: Enter choice: 

@@ -1,0 +1,28 @@
+V "GNAT Lib v6"
+A -gnatwu
+A -gnat05
+P ZX
+
+RN
+RV SPARK_05
+
+U gstack%b		gstack.adb		0a3499e8 NE OO PK GE KU
+
+U gstack%s		gstack.ads		86eb8965 BN EE NE OO PK GE KU
+
+D gstack.ads		20180414212524 86eb8965 gstack%s
+D gstack.adb		20180414212521 8cdf108d gstack%b
+D system.ads		20151123113124 32a08138 system%s
+X 1 gstack.ads
+4i4 Max{integer} 2|4r16 5r26
+5+9 Item 8r25 9r25 2|4r24 7r25 13r25
+7k9*Gstack 4z4 5z9 11l5 11e11 2|3b14 26l5 26t11
+8U14*Push 8>19 2|7b14 11l8 11t12
+8*19 X{5+9} 2|7b19 10r17
+9U14*Pop 9<18 2|13b14 17l8 17t11
+9*18 X{5+9} 2|13b18 15m7
+10V13*Count{integer} 2|19b13 22l8 22t13
+X 2 gstack.adb
+4a4 S(1|5+9) 10m7 15r12
+5i4 Top{integer} 9m7 9r14 10r9 15r14 16m7 16r14 21r14 25m4
+

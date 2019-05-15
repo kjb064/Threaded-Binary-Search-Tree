@@ -1,0 +1,91 @@
+V "GNAT Lib v6"
+M P W=b
+A -gnatwu
+A -g
+A -gnato
+A -gnatwa
+A -gnat05
+A -g
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U driver%b		driver.adb		5b0c06f0 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W binarysearchtree%s	binarysearchtree.adb	binarysearchtree.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D binarysearchtree.ads	20180425210436 4b091150 binarysearchtree%s
+D driver.adb		20180425210416 2868e274 driver%b
+D interfac.ads		20151118101227 4be8ce1b interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20151123113124 32a08138 system%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 9|3r6 3r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 9|3w10 3r27
+166U14*New_Line 9|15s89 16s85 17s86 18s89 19s87 20s86 21s88 22s85 26s4 26s41
+. 30s47 32s56 37s4 37s41 41s47 43s56 48s4 48s41 52s48 54s57 59s4 59s41 63s48
+. 65s57 70s4 70s63 82s7 87s4 88s89 89s88 90s90 94s4 94s61 104s4 104s53 110s4
+. 114s30 117s7 123s30 126s7 132s30 135s7 140s86 141s89 145s4 145s61 155s4
+. 155s50 160s4 160s57
+242U14*Put 9|15s62 16s62 17s62 18s62 19s62 20s62 21s62 22s62 26s14 30s7 32s7
+. 37s14 41s7 43s7 48s14 52s7 54s7 59s14 63s7 65s7 70s14 81s7 88s62 89s62
+. 90s62 94s14 104s14 114s7 116s7 123s7 125s7 132s7 134s7 140s62 141s62 145s14
+. 155s14 160s14
+X 8 binarysearchtree.ads
+1K9*BinarySearchTree 58e21 9|1w6 2r5
+3A12*String10{string}<integer> 9|8r15
+5P9*BinarySearchTreePoint 9|6r10 7r20
+7U14*InsertBinarySearchTree 9|15s4 16s4 17s4 18s4 19s4 20s4 21s4 22s4 88s4
+. 89s4 90s4 140s4 141s4
+11U14*DeleteRandomNode 9|113s7 122s7 131s7
+14U14*FindCustomerIterative 9|27s4 49s4 71s4 111s4 120s4
+18U14*FindCustomerRecursive 9|38s4 60s4 129s4
+22V13*InOrderSuccessor{5P9} 9|75s15 78s18 96s12 99s15 147s12 150s15
+28U14*PreOrderTraversalIterative 9|105s4
+30U14*ThreadedPreOrder 9|161s4
+32U14*ReverseInOrder 9|156s4
+36V13*CustomerPhone{3A12} 9|29s20 40s20 51s20 62s20
+38U14*init_head 9|10s4
+40U14*DisplayRecord 9|73s7 77s10 95s4 98s7 146s4 149s7
+42V13*Not_Null{boolean} 9|28s8 39s8 50s8 61s8 72s8 112s8 121s8 130s8
+X 9 driver.adb
+5U11*Driver 5b11 163l5 163t11
+6p4 Root{8|5P9} 15m27 15r27 16m27 16r27 17m27 17r27 18m27 18r27 19m27 19r27
+. 20m27 20r27 21m27 21r27 22m27 22r27 27r26 38r26 49r26 60r26 71r26 88m27
+. 88r27 89m27 89r27 90m27 90r27 95r18 96r29 97r19 105r31 111r26 113m24 113r24
+. 120r26 122m24 122r24 129r26 131m24 131r24 140m27 140r27 141m27 141r27 146r18
+. 147r29 148r19 156r19 161r21
+7p4 Temp{8|5P9} 27m46 27r46 28r17 29r34 38m46 38r46 39r17 40r34 49m46 49r46
+. 50r17 51r34 60m46 60r46 61r17 62r34 71m46 71r46 72r17 73r21 74r19 75m7
+. 75r32 76r14 77r24 78m10 78r35 96m4 97r11 98r21 99m7 99r32 111m46 111r46
+. 112r17 113r30 120m46 120r46 121r17 122r30 129m46 129r46 130r17 131r30 147m4
+. 148r11 149r21 150m7 150r32
+7p10 FirstPtr{8|5P9} 74m7 76r22
+8a4 TempPhone{8|3A12} 29m7 30r35 40m7 41r35 51m7 52r36 62m7 63r36
+

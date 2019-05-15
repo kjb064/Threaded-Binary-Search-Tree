@@ -1,0 +1,94 @@
+V "GNAT Lib v6"
+M P W=b
+A -gnatwu
+A -g
+A -gnato
+A -gnatwa
+A -gnat05
+A -g
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U lab5%b		lab5.adb		82b9187c NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W binarysearchtree%s	binarysearchtree.adb	binarysearchtree.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D binarysearchtree.ads	20180425001840 4b091150 binarysearchtree%s
+D interfac.ads		20151118101227 4be8ce1b interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D lab5.adb		20180425003707 f1ddfcf8 lab5%b
+D system.ads		20151123113124 32a08138 system%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+166U14*New_Line 11|17s43 18s58 19s58 20s60 21s75 22s52 23s60 24s54 25s74
+. 26s79 27s45 28s36 44s45 46s52 53s45 55s52 63s13 67s10 69s58 72s49 78s39
+. 81s13 87s46 90s13 95s10 107s13 111s10 113s47 116s49 120s10 122s56 125s49
+. 133s47 136s13
+206U14*Get 11|31s30
+240U14*Get 11|36s61 37s43 41s60 50s60 94s68 129s61
+242U14*Put 11|17s4 18s4 19s4 20s4 21s4 22s4 23s4 24s4 25s4 26s4 27s4 28s4
+. 31s7 36s10 37s10 41s10 44s13 46s13 50s10 53s13 55s13 62s13 69s13 72s13
+. 78s13 80s13 87s13 89s13 94s10 106s13 113s13 116s13 122s13 125s13 129s10
+. 133s13 135s13
+X 8 binarysearchtree.ads
+1K9*BinarySearchTree 58e21 11|2w6 3r5
+3A12*String10{string}<integer> 11|9r14 10r15
+5P9*BinarySearchTreePoint 11|7r10 11r13 12r14
+7U14*InsertBinarySearchTree 11|38s10
+11U14*DeleteRandomNode 11|132s13
+14U14*FindCustomerIterative 11|42s10 96s10 130s10
+18U14*FindCustomerRecursive 11|51s10
+22V13*InOrderSuccessor{5P9} 11|60s24 100s24 103s27
+28U14*PreOrderTraversalIterative 11|70s13
+30U14*ThreadedPreOrder 11|123s13
+32U14*ReverseInOrder 11|114s13
+34V13*CustomerName{3A12} 11|77s25
+36V13*CustomerPhone{3A12} 11|86s26
+38U14*init_head 11|15s4
+40U14*DisplayRecord 11|98s13 102s16
+42V13*Not_Null{boolean} 11|43s14 52s14 59s14 68s14 76s14 85s14 97s14 112s14
+. 121s14 131s14
+X 11 lab5.adb
+5U11*Lab5 5b11 142l5 142t9
+7p4 Root{8|5P9} 38m33 38r33 42r32 51r32 68r23 70r40 96r32 112r23 114r28 121r23
+. 123r30 130r32 132m30 132r30
+8e4 Choice{character} 31m34 33r17 33r33 35r10 35r26 40r13 40r29 49r13 49r29
+. 58r13 58r29 66r13 66r29 75r13 75r29 84r13 93r13 93r29 110r13 110r29 119r13
+. 119r29 128r13 128r29
+9a4 TempName{8|3A12} 36m65 38r39 41m64 42r38 50m64 51r38 77m13 78r28 94m72
+. 96r38 129m65 130r38
+10a4 TempPhone{8|3A12} 37m47 38r49 86m13 87r34
+11p4 TempPtr{8|5P9} 42m48 42r48 43r23 51m48 51r48 52r23 59r23 60m13 60r41
+. 76r23 77r38 85r23 86r40 96m48 96r48 97r23 98r27 99r25 100m13 100r41 101r19
+. 102r30 103m16 103r44 130m48 130r48 131r23 132r36
+12p4 FirstPtr{8|5P9} 99m13 101r30
+
